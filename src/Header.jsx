@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./App.css"
 
 export function Header(){
@@ -17,15 +17,15 @@ export function Header(){
                 />
               </button>
             </div>
-            <Link className="link" to="/">
+            <NavLink className="NavLink" to="/">
               Home
-            </Link>
-            <Link className="link" to="/fashion">
+            </NavLink>
+            <NavLink className="NavLink" to="/fashion">
               Fashion
-            </Link>
-            <Link className="link" to="/gadgets">
+            </NavLink>
+            <NavLink className="NavLink" to="/gadgets">
               Gadgets
-            </Link>
+            </NavLink>
           </div>
         </nav>
       </header>

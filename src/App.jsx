@@ -6,13 +6,14 @@ import { Layout } from "./Layout";
 import { Home } from "./Home";
 import { Womenfashion } from "./Women";
 import { Kidsfashion } from "./Kids";
+import { Error } from "./Error";
 
 function App() {
   const myRouter = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
-      errorElement: <Error/>,
+      errorElement: <Error />,
       children: [
         {
           path: "/",
