@@ -6,11 +6,7 @@ export function Header(){
         <>
         <header>
         <nav>
-          <img
-            className="logo"
-            src="https://cdn-icons-png.flaticon.com/512/10919/10919715.png"
-            alt="logo"
-          />
+          <h1 className="logo">.Shop</h1>
           <div className="sideNav">
             <div className="search">
               <input type="text" />

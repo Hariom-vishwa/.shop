@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import "./App.css";
 import "./Home.css";
+import { Fashion } from "./Fashion";
 
 export function Home() {
   return (
@@ -39,7 +41,7 @@ export function Home() {
               molestiae repudiandae deserunt iusto reiciendis mollitia placeat,
               non natus earum! Dolores aliquid facere assumenda!
             </p>
-            <a href="/fashion/menfashion">Shop Now</a>
+            <Link className="shopNow" to="/fashion/menfashion">Shop Now</Link>
           </div>
           <img
             src="https://i.pinimg.com/564x/86/2c/cf/862ccfc2d64b7c56d31d7d7db94b09df.jpg"
@@ -104,6 +106,8 @@ export function Home() {
           />
         </div>
       </div>
+
+      <Fashion/>
     </>
   );
 }
