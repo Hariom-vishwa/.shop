@@ -91,7 +91,7 @@ export function Kidsfashion() {
         {kidsWear.map((data) => {
           return (
             <div className="item">
-              <img src={data.photo} alt={data.name} />
+              <img src={data.photo} alt={data.name} />0
               <div className="nameNcolor">
                 <h2>{data.name}</h2>
                 <h3>{data.color}</h3>
@@ -107,3 +107,4 @@ export function Kidsfashion() {
     </>
   );
 }
+ 

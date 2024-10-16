@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Fashion.css";
 
 export function Fashion() {
+  const nav=useLocation()
+  console.log(nav)
   const fashion = [
     {
       category: "Men's Fashion",
