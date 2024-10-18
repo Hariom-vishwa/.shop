@@ -74,7 +74,106 @@ export function Menfashion() {
       size: 38,
       price: 899,
     },
+    {
+      photo: "https://infinia.in/cdn/shop/products/1_55e21ecd-7d51-4411-a4f3-f00df1f86d42.jpg",
+      name: "Printed T-Shirt",
+      color: "Red",
+      size: "M",
+      price: 299,
+    },
+    {
+      photo: "https://spykar.com/cdn/shop/products/L2igAtcjqh-1.jpg",
+      name: "Denim Shirt",
+      color: "Dark Blue",
+      size: 40,
+      price: 1099,
+    },
+    {
+      photo: "https://n.nordstrommedia.com/id/sr3/2bfee7de-e7b9-4a5a-bf81-a76f73eda77d.jpeg",
+      name: "V-Neck Sweater",
+      color: "Burgundy",
+      size: "L",
+      price: 1499,
+    },
+    {
+      photo: "https://imagescdn.vanheusenindia.com/img/app/product/6/668521-6885713.jpg",
+      name: "Track Pant",
+      color: "Gray",
+      size: 34,
+      price: 499,
+    },
+    {
+      photo: "https://img0.junaroad.com/uiproducts/20478725/zoom_0-1698938552.jpg",
+      name: "Casual Blazer",
+      color: "Navy Blue",
+      size: 40,
+      price: 2599,
+    },
+    {
+      photo: "https://veirdo.in/cdn/shop/files/Eyes-on-Style-Men-s-Blue-Hoodie-with-Eye-Print-Veirdo-2656.jpg",
+      name: "Graphic Hoodie",
+      color: "Blue",
+      size: "XL",
+      price: 999,
+    },
+    {
+      photo: "https://img0.junaroad.com/uiproducts/18145037/zoom_0-1641905653.jpg",
+      name: "Formal Trousers",
+      color: "Charcoal Gray",
+      size: 36,
+      price: 799,
+    },
+    {
+      photo: "https://images.express.com/is/image/expressfashion/0037_04105192_1056_5_fb?cache=on&wid=480&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+      name: "Peacoat",
+      color: "Black",
+      size: 42,
+      price: 3499,
+    },
+    {
+      photo: "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/k/m/w/s-classic-henley-evolve-fashions-original-imagwjk7zj4h7rat.jpeg",
+      name: "Henley T-Shirt",
+      color: "Dark Navy",
+      size: "L",
+      price: 549,
+    },
+    {
+      photo: "https://www.hancockfashion.com/cdn/shop/products/1_a40c6863-2a3a-4457-bfb0-607bc7c64c40.jpg",
+      name: "Button-Down Shirt",
+      color: "Light Blue",
+      size: 42,
+      price: 649,
+    },
+    {
+      photo: "https://getketchadmin.getketch.com/product/8905980330012/660/KHJK000127_1.JPG",
+      name: "Bomber Jacket",
+      color: "Green",
+      size: "M",
+      price: 2299,
+    },
+    {
+      photo: "https://images.bestsellerclothing.in/data/selected/2-mar-2022/216498201_2.jpg",
+      name: "Slim Fit Blazer",
+      color: "Light Pink",
+      size: 42,
+      price: 2799,
+    },
+    {
+      photo: "https://www.verywellfit.com/thmb/pYgtg51O8KxgguQDQr5ISLLAUGA=/fit-in/1500x4329/filters:no_upscale():max_bytes(150000):strip_icc()/vwt-best-overall-shoe-test-reebok-nano-x2-training-tstaples-017-d5a2db6ac9df4087a0507eb77dfe0387.jpg",
+      name: "Athletic Shoes",
+      color: "Gray",
+      size: 9,
+      price: 1699,
+    },
+    {
+      photo: "https://www.tistabene.com/cdn/shop/products/mainimage1607084616.jpg",
+      name: "Printed Shirt",
+      color: "Brown",
+      size: 38,
+      price: 999,
+    }
   ];
+  
 
   return (
     <>

@@ -3,29 +3,10 @@
   text-align: center;
 }
 
-svg {
-  animation: svg 1s linear 0s infinite;
-}
-
-@keyframes svg {
-  0% {
-    stroke: orange;
-    transform: translateX(22px) translateY(-12px);
-  }
-  50% {
-    stroke: red;
-    transform: translateX(0) translateY(0);
-  }
-  100% {
-    stroke: magenta;
-    transform: translateX(22px) translateY(-12px);
-  }
-}
-
 .carouselCont {
   width: 100%;
   height: 500px;
-  padding: 0 0 0 50px;
+  padding: 0 50px;
   margin: 50px 0;
   display: flex;
   align-items: center;
@@ -48,12 +29,13 @@ svg {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+
 .carouselCont::-webkit-scrollbar {
   display: none;
 }
 
 .carouselCont .carousel .leftContent {
-  width: 500px;
+  width: 8000px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -79,8 +61,7 @@ svg {
   font-family: "Afacad Flux", sans-serif;
 }
 
-.leftContent p,
-.leftContent .shopNow {
+.leftContent p{
   font-family: "Roboto", sans-serif;
 }
 
@@ -91,6 +72,7 @@ svg {
   width: 100px;
   height: 30px;
   font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
   background: transparent;
   border: none;
   position: relative;
@@ -157,7 +139,8 @@ svg {
 /* Shop Button End  */
 
 .carouselCont .carousel img {
-  height: 100%;
+  height: 450px;
+  width: 320px;
   object-fit: cover;
   object-position: center;
   border-radius: 20px;

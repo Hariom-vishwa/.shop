@@ -7,6 +7,7 @@ import { Home } from "./Home";
 import { Womenfashion } from "./Women";
 import { Kidsfashion } from "./Kids";
 import { Error } from "./Error";
+import { Footwear } from "./Footwear";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -35,6 +36,10 @@ function App() {
           path: "/fashion/kidsfashion",
           element: <Kidsfashion />,
         },
+        {
+          path:"/fashion/footwear",
+          element: <Footwear/>
+        }
       ],
     },
   ]);
