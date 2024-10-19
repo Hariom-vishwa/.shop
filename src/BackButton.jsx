@@ -1,24 +1,28 @@
+import { useNavigate } from "react-router-dom";
+import "./App.css"
+
 export function BackButton() {
+  const goBack = useNavigate();
+  function handleBtn() {
+    goBack(-1);
+  }
+
   return (
     <>
-      <button>
+    {
+        goBack=="/"?
+     "" :
+        <button className="backBtn" onClick={handleBtn}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
           viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-circle-arrow-left"
+          fill="rgba(255,255,255,1)"
         >
-          <circle cx="12" cy="12" r="10" />
-          <path d="M16 12H8" />
-          <path d="m12 8-4 4 4 4" />
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path>
         </svg>
       </button>
+   }
     </>
   );
 }

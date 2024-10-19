@@ -23,6 +23,11 @@ export function Fashion() {
         "https://i.pinimg.com/736x/de/2e/69/de2e6960806d35b03f5a303e5d13b475.jpg",
       id: "/fashion/kidsfashion",
     },
+    {
+      category: "Footwear",
+      photo: "https://shoesandaccessories.in/wp-content/uploads/2024/07/Ludic-Enhanced-Canvas-Sneakers-scaled.jpg",
+      id:"/fashion/footwear"
+    }
   ];
 
   return (
@@ -41,6 +46,7 @@ export function Fashion() {
             </Link>
           );
         })}
+
       </div>
     </>
   );

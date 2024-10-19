@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./App.css";
+import { BackButton } from "./BackButton";
 
 export function Header() {
   return (
@@ -10,7 +11,7 @@ export function Header() {
           <div className="sideNav">
             <div className="search">
               <input type="text" />
-              <button>
+              <button className="searchBtn">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -37,6 +38,7 @@ export function Header() {
             <NavLink className="NavLink" to="/gadgets">
               Gadgets
             </NavLink>
+            <BackButton/>
           </div>
         </nav>
       </header>

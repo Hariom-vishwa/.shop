@@ -22,13 +22,14 @@ header {
 
 header nav {
   width: 90%;
-  padding: 0 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
+  /* padding: 0 100px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
+  width: 200px;
   font-size: 50px;
   margin: 0;
   background-image: repeating-linear-gradient(
@@ -48,7 +49,8 @@ header nav {
 }
 
 header nav .sideNav {
-  width: 500px;
+  min-width: 500px;
+  width: auto;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -71,8 +73,8 @@ header nav .sideNav .search input {
   border-radius: 50px 0 0 50px;
 }
 
-header nav .sideNav button {
-  width: 60px;
+header nav .sideNav .searchBtn {
+  width: 50px;
   height: 35px;
   border: none;
   background-image: repeating-linear-gradient(
@@ -104,8 +106,26 @@ header nav .sideNav .NavLink {
 
 .active {
   border-bottom: 2px solid  red;
-  /* text-decoration: underline; */
   transition: all 0.3s ease;
+}
+
+/* Back Button  */
+
+header nav .backBtn{
+  height: 30px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+header nav .sideNav .backBtn svg{
+  width: 27px;
+  height: 27px;
 }
 
 /* Footer  */
