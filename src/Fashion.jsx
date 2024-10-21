@@ -38,7 +38,7 @@ export function Fashion() {
 
       <h1 className="fashionHeading">Fashion</h1>
       <div className="fashionCate">
-        {fashion.map((key, value) => {
+        {fashion.map((key) => {
           return (
             <Link to={key.id} className="fashionCont">
               <img src={key.photo} alt={key.category} />
