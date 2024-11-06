@@ -1,4 +1,4 @@
-import "./Men.css";
+import "./Styles/Men.css";
 
 export function Kidsfashion() {
   const kidsWear = [

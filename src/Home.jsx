@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "./App.css";
-import "./Home.css";
+import "./Styles/App.css";
+import "./Styles/Home.css";
 import { Fashion } from "./Fashion";
 
 export function Home() {
@@ -63,6 +63,7 @@ export function Home() {
       </div>
 
       <Fashion />
+
     </>
   );
 }

@@ -1,6 +1,6 @@
 
-import "./App.css";
-import "./Men.css";
+import "./Styles/App.css";
+import "./Styles/Men.css";
 
 export function Menfashion() {
   const mensWear = [

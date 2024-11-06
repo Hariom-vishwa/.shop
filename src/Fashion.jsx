@@ -1,9 +1,7 @@
-import { Link, useLocation } from "react-router-dom";
-import "./Fashion.css";
+import { Link } from "react-router-dom";
+import "./Styles/Fashion.css";
 
 export function Fashion() {
-  // const nav=useLocation()
-  // console.log(nav)
   const fashion = [
     {
       category: "Men's Fashion",
@@ -25,15 +23,14 @@ export function Fashion() {
     },
     {
       category: "Footwear",
-      photo: "https://shoesandaccessories.in/wp-content/uploads/2024/07/Ludic-Enhanced-Canvas-Sneakers-scaled.jpg",
-      id:"/fashion/footwear"
-    }
+      photo:
+        "https://shoesandaccessories.in/wp-content/uploads/2024/07/Ludic-Enhanced-Canvas-Sneakers-scaled.jpg",
+      id: "/fashion/footwear",
+    },
   ];
 
   return (
     <>
-    
-
       {/* Category  */}
 
       <h1 className="fashionHeading">Fashion</h1>
@@ -46,7 +43,6 @@ export function Fashion() {
             </Link>
           );
         })}
-
       </div>
     </>
   );

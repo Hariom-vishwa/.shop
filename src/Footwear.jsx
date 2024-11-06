@@ -1,10 +1,11 @@
-import "./Fashion.css";
+import "./Styles/Fashion.css";
 
 export function Footwear() {
   const footwear = [
     // Male Footwear
     {
-      photo: "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16242578/2023/1/11/d897d4ae-835b-426c-958b-ead461b6d0651673420612033-El-Paso-Men-Brown-Flat-Boots-1691673420611917-7.jpg",
+      photo:
+        "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16242578/2023/1/11/d897d4ae-835b-426c-958b-ead461b6d0651673420612033-El-Paso-Men-Brown-Flat-Boots-1691673420611917-7.jpg",
       name: "Men's Leather Boots",
       gender: "Male",
       color: "Brown",
@@ -12,7 +13,8 @@ export function Footwear() {
       price: 2999,
     },
     {
-      photo: "https://img.tatacliq.com/images/i14/437Wx649H/MP000000014414443_437Wx649H_202310152338341.jpeg",
+      photo:
+        "https://img.tatacliq.com/images/i14/437Wx649H/MP000000014414443_437Wx649H_202310152338341.jpeg",
       name: "Men's Running Shoes",
       gender: "Male",
       color: "Black",
@@ -20,7 +22,8 @@ export function Footwear() {
       price: 1599,
     },
     {
-      photo: "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15778982/2021/10/25/705a529a-97a1-4b60-bdf2-64bab0d151031635184404737ProvogueMenBlackSolidFormalDebys1.jpg",
+      photo:
+        "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15778982/2021/10/25/705a529a-97a1-4b60-bdf2-64bab0d151031635184404737ProvogueMenBlackSolidFormalDebys1.jpg",
       name: "Men's Formal Shoes",
       gender: "Male",
       color: "Black",
@@ -30,7 +33,8 @@ export function Footwear() {
 
     // Female Footwear
     {
-      photo: "https://img.tatacliq.com/images/i18//437Wx649H/MP000000023026732_437Wx649H_202407242302351.jpeg",
+      photo:
+        "https://img.tatacliq.com/images/i18//437Wx649H/MP000000023026732_437Wx649H_202407242302351.jpeg",
       name: "Women's High Heels",
       gender: "Female",
       color: "Red",
@@ -38,7 +42,8 @@ export function Footwear() {
       price: 1999,
     },
     {
-      photo: "https://www.tresmode.com/cdn/shop/files/the-samsy-beige-women-s-casual-ballerinas-tresmode-tresmode-1.jpg",
+      photo:
+        "https://www.tresmode.com/cdn/shop/files/the-samsy-beige-women-s-casual-ballerinas-tresmode-tresmode-1.jpg",
       name: "Women's Ballet Flats",
       gender: "Female",
       color: "Beige",
@@ -46,7 +51,8 @@ export function Footwear() {
       price: 899,
     },
     {
-      photo: "https://assets.ajio.com/medias/sys_master/root/20230628/YT2z/649b7be8eebac147fc161384/-473Wx593H-465799664-white-MODEL.jpg",
+      photo:
+        "https://assets.ajio.com/medias/sys_master/root/20230628/YT2z/649b7be8eebac147fc161384/-473Wx593H-465799664-white-MODEL.jpg",
       name: "Women's Sneakers",
       gender: "Female",
       color: "White",
@@ -56,7 +62,8 @@ export function Footwear() {
 
     // Kids Footwear
     {
-      photo: "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2024/AUGUST/24/GPHDIjyq_b72e799d592f40b1a73e1f3352566b87.jpg",
+      photo:
+        "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2024/AUGUST/24/GPHDIjyq_b72e799d592f40b1a73e1f3352566b87.jpg",
       name: "Kids' Sandals",
       gender: "Kids",
       color: "Blue",
@@ -64,7 +71,8 @@ export function Footwear() {
       price: 499,
     },
     {
-      photo: "https://www.numberoneshoesandhannahs.co.nz/content/products/meteor-lights-skechers-shoes-red-image08-meteor-lights-skechers-shoes.jpg",
+      photo:
+        "https://www.numberoneshoesandhannahs.co.nz/content/products/meteor-lights-skechers-shoes-red-image08-meteor-lights-skechers-shoes.jpg",
       name: "Kids' Sports Shoes",
       gender: "Kids",
       color: "Red",
@@ -72,7 +80,8 @@ export function Footwear() {
       price: 999,
     },
     {
-      photo: "https://www.touchy-style.com/cdn/shop/files/fashion-comfortable-breathable-boys-girls-children-casual-shoes-t18h-13-touchy-style-2.webp",
+      photo:
+        "https://www.touchy-style.com/cdn/shop/files/fashion-comfortable-breathable-boys-girls-children-casual-shoes-t18h-13-touchy-style-2.webp",
       name: "Kids' Casual Shoes",
       gender: "Kids",
       color: "Pink",

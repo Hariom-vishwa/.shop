@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./App.css";
+import "./Styles/App.css";
 import { Fashion } from "./Fashion";
 import { Menfashion } from "./Men";
 import { Layout } from "./Layout";
@@ -8,6 +8,7 @@ import { Womenfashion } from "./Women";
 import { Kidsfashion } from "./Kids";
 import { Error } from "./Error";
 import { Footwear } from "./Footwear";
+import Specs from "./Specs";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -39,6 +40,10 @@ function App() {
         {
           path:"/fashion/footwear",
           element: <Footwear/>
+        },
+        {
+          path: "/specs/:productName",
+          element: <Specs/>
         }
       ],
     },
