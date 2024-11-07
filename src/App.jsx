@@ -8,7 +8,7 @@ import { Womenfashion } from "./Women";
 import { Kidsfashion } from "./Kids";
 import { Error } from "./Error";
 import { Footwear } from "./Footwear";
-import Specs from "./Specs";
+import Specs from "./WomenSpecs";
 
 function App() {
   const myRouter = createBrowserRouter([

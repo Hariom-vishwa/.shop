@@ -69,7 +69,7 @@ h1{
     padding: 50px;
     height: 600px;
     box-sizing: border-box;
-    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .leftPart img{
