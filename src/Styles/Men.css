@@ -19,7 +19,7 @@ h1{
 .item{
     width: 300px;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: #0000000e;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -53,6 +53,14 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.viewDetails{
+    text-decoration: none;
+    padding: 5px 20px;
+    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(135deg, rgb(165, 230, 235),rgb(29, 32, 232));
+  border-radius: 10px;
+    color: white;
 }
 
 .specsCont{

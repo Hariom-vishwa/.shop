@@ -213,7 +213,7 @@ footer .footer-links ul{
   height: 35px;
   font-weight: 500;
   background-image: repeating-linear-gradient(
-      135deg,
+    135deg,
       rgba(0, 0, 0, 0.04) 0px,
       rgba(0, 0, 0, 0.04) 2px,
       transparent 2px,
@@ -240,12 +240,15 @@ footer .footer-links ul{
 @keyframes Error {
   0% {
     color: brown;
+    font-size: 30px;
   }
   50% {
     color: red;
+    font-size: 50px;
   }
   100% {
     color: brown;
+    font-size: 30px;
   }
 }
 
@@ -262,4 +265,20 @@ footer .footer-links ul{
 .errorCont .link:hover {
   transform: scale(1.2);
   border-bottom: 2px solid red;
+}
+
+
+.prodError{
+  margin: 50px auto;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  animation: Error 3s ease 0s infinite;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.prodError::after{
+  content: " ! ! !";
 }

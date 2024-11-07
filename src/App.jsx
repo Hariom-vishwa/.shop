@@ -9,6 +9,7 @@ import { Kidsfashion } from "./Kids";
 import { Error } from "./Error";
 import { Footwear } from "./Footwear";
 import Specs from "./WomenSpecs";
+import MenSpecs from "./MenSpecs";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -42,8 +43,16 @@ function App() {
           element: <Footwear/>
         },
         {
-          path: "/specs/:itemName",
+          path: "/fashion/womenfashion/:itemName",
           element: <Specs/>
+        },
+        {
+          path:"/fashion/menfashion/:itemName",
+          element: <MenSpecs/>
+        },
+        {
+          path: "/fashion/kidsfashion/:itemName",
+          element: <Kidsfashion/>
         }
       ],
     },

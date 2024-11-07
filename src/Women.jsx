@@ -217,7 +217,7 @@ export function Womenfashion() {
                 <h2>{data.name}</h2>
                 <h3>Price: ₹{data.price}/-</h3>
               </div>
-              <Link to={`/specs/${data.name}`}>{"View Details >>"}</Link>
+              <Link className="viewDetails" to={`/fashion/womenfashion/${data.name}`}>{"View Details >>"}</Link>
             </div>
           );
         })}

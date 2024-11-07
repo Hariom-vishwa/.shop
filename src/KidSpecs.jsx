@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { womensWear } from "./Women";
+import { kidsWear } from "./Kids";
 
-export default function Specs() {
+export default function KidSpecs() {
   const { itemName } = useParams();
-  const prod = womensWear.find((pro) => pro.name === itemName);
+  const prod = kidsWear.find((pro) => pro.name === itemName);
 
   if (!prod) return <h2 className="prodError">Product not found</h2>;
-
+  
   return (
     <>
       <div className="specsCont">
