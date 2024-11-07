@@ -54,3 +54,32 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+
+.specsCont{
+    margin: 50px auto;
+    width: 80%;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.leftPart, .rightPart{
+    padding: 50px;
+}
+
+.leftPart img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.rightPart h1{
+    margin: 0;
+    font-size: 29px;
+}
+
+.rightPart p {
+    text-transform: capitalize;
+}

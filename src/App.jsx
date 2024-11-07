@@ -42,7 +42,7 @@ function App() {
           element: <Footwear/>
         },
         {
-          path: "/specs/:productName",
+          path: "/specs/:itemName",
           element: <Specs/>
         }
       ],
