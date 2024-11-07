@@ -58,7 +58,7 @@ h1{
 .specsCont{
     margin: 50px auto;
     width: 80%;
-    border: 1px solid;
+    /* border: 1px solid; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
@@ -67,6 +67,9 @@ h1{
 
 .leftPart, .rightPart{
     padding: 50px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid;
 }
 
 .leftPart img{
@@ -76,10 +79,16 @@ h1{
 }
 
 .rightPart h1{
-    margin: 0;
+    padding: 20px;
     font-size: 29px;
+    border-bottom: 2px solid;
 }
 
 .rightPart p {
     text-transform: capitalize;
+}
+
+.rightPart .rightSpecs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
