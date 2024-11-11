@@ -32,16 +32,15 @@ export default function Specs() {
                 <strong>{key}:</strong> {value}
               </p>
             ))}
-
           </div>
-<div className="actionBtns">
-              <a href="#" className="buyNow">
-                Buy Now
-              </a>
-              <a href="#" className="addToCart">
-                Add to Cart
-              </a>
-            </div>
+          <div className="actionBtns">
+            <a href="#" className="buyNow">
+              Buy Now
+            </a>
+            <a href="#" className="addToCart">
+              Add to Cart
+            </a>
+          </div>
         </div>
       </div>
     </>
