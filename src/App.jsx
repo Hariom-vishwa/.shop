@@ -10,6 +10,8 @@ import { Error } from "./Error";
 import { Footwear } from "./Footwear";
 import Specs from "./WomenSpecs";
 import MenSpecs from "./MenSpecs";
+import KidSpecs from "./KidSpecs";
+import FootwearSpecs from "./FootwearSpecs";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -52,7 +54,11 @@ function App() {
         },
         {
           path: "/fashion/kidsfashion/:itemName",
-          element: <Kidsfashion/>
+          element: <KidSpecs/>
+        },
+        {
+          path: "/fashion/footwear/:itemName",
+          element: <FootwearSpecs/>
         }
       ],
     },

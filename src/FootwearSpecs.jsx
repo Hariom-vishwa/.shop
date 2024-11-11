@@ -1,13 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { kidsWear } from "./Kids";
+import { footwear } from "./Footwear";
 
-export default function KidSpecs() {
+export default function FootwearSpecs() {
   const { itemName } = useParams();
-  const prod = kidsWear.find((pro) => pro.name === itemName);
+  const prod = footwear.find((pro) => pro.name === itemName);
 
   if (!prod) return <h2 className="prodError">Product not found</h2>;
-
   return (
     <>
       <div className="specsCont">
@@ -26,6 +25,9 @@ export default function KidSpecs() {
             <p>
               <strong>Size:</strong> {prod.size}
             </p>
+            <p>
+              <strong>Compatible for: </strong> {prod.gender}
+            </p>
 
             {Object.entries(prod.details).map(([key, value]) => (
               <p key={key}>
@@ -33,7 +35,6 @@ export default function KidSpecs() {
               </p>
             ))}
           </div>
-
           <div className="actionBtns">
             <a href="#" className="buyNow">
               Buy Now

@@ -105,7 +105,7 @@ header nav .sideNav .NavLink {
 }
 
 .active {
-  border-bottom: 2px solid  red;
+  border-bottom: 2px solid  tomato;
   transition: all 0.3s ease;
 }
 
@@ -158,6 +158,7 @@ footer .footer-container .footer-logo{
 
 footer h1,
 footer h2 {
+  color: rgb(29, 32, 232);
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -182,7 +183,7 @@ footer .footer-links ul{
 
 .footer-links ul li .footer-link:hover{
   color: rgb(29, 32, 232);
-  text-decoration: underline red;
+  text-decoration: underline tomato;
 }
 
 .footer-newsletter form{
@@ -243,7 +244,7 @@ footer .footer-links ul{
     font-size: 30px;
   }
   50% {
-    color: red;
+    color: tomato;
     font-size: 50px;
   }
   100% {
@@ -264,7 +265,7 @@ footer .footer-links ul{
 
 .errorCont .link:hover {
   transform: scale(1.2);
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid tomato;
 }
 
 
@@ -272,7 +273,7 @@ footer .footer-links ul{
   margin: 50px auto;
   text-align: center;
   font-size: 50px;
-  color: red;
+  color: tomato;
   animation: Error 3s ease 0s infinite;
   transition: all 0.3s ease;
   border: 2px solid rgba(255, 0, 0, 0);
